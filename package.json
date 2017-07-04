@@ -1,0 +1,22 @@
+{
+  "name": "learning-sass",
+  "version": "1.0.0",
+  "description": "Sass beginning",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "start":"npm run gulp && concurrently \"npm run gulp-watch\" \"npm run lite\"",
+    "lite": "lite-server",
+    "gulp":"gulp",
+    "gulp-watch":"gulp-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaniklsjoshi/learning-sass.git"
+  }
+}

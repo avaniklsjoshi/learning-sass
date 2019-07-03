@@ -1,5 +1,6 @@
 # learning-sass
 Sass beginning. :)
+It basically converts scss to css file with gulp
 
 go to github, create repo
 clone repo in vs code
